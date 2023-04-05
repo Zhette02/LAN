@@ -60,6 +60,7 @@ h2 {
   margin-top: 200px;
   max-width: 400px;
   position: relative;
+  z-index: 10;
 }
 
 
@@ -86,6 +87,7 @@ img {
 }
 
 .drop {
+  pointer-events: none;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -94,6 +96,7 @@ img {
   animation-duration: 3s;
   animation-fill-mode: forwards;
   margin: auto;
+  z-index: -1;
 }
 
 @keyframes droplet {
